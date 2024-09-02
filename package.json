@@ -1,0 +1,32 @@
+{
+  "name": "digital-assets-platform-nodejs",
+  "version": "1.0.0",
+  "description": "svg to react js component converter",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://1gitlab.1rivet.com/1Rivet/digital-assets-platform-nodejs.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Mrunal Patel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "tar": "^7.4.3",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
